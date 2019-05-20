@@ -1,6 +1,6 @@
 {
   "name": "irkin-brain-games",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "files": [
@@ -21,6 +21,7 @@
     "@babel/core": "^7.4.4",
     "@babel/node": "^7.2.2",
     "@babel/preset-env": "^7.4.4",
-    "nvm": "0.0.4"
+    "nvm": "0.0.4",
+    "readline-sync": "^1.4.9"
   }
 }
