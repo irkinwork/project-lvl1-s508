@@ -1,6 +1,6 @@
 {
   "name": "irkin-brain-games",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "",
   "main": "index.js",
   "files": [
@@ -14,7 +14,7 @@
   "author": "",
   "license": "ISC",
   "bin": {
-    "brain-games": "./dist/bin/brain-games.js"
+    "brain-even": "./dist/bin/brain-even.js"
   },
   "dependencies": {
     "@babel/cli": "^7.4.4",
