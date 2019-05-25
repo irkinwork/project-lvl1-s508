@@ -14,7 +14,8 @@
   "author": "",
   "license": "ISC",
   "bin": {
-    "brain-even": "./dist/bin/brain-even.js"
+    "brain-even": "./dist/bin/brain-even.js",
+    "brain-calc": "./dist/bin/brain-calc.js"
   },
   "dependencies": {
     "@babel/cli": "^7.4.4",
