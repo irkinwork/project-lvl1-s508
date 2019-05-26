@@ -5,10 +5,11 @@ export const rules = 'What number is missing in the progression?';
 export const data = () => {
   const first = getRandomNumber();
   const der = getRandomNumber();
-  const order = Math.abs(getRandomNumber(10));
+  const progressionLength = 10;
+  const order = Math.abs(getRandomNumber(progressionLength));
   const formula = n => first + (n - 1) * der;
   const getTenItemsOFprogression = (nn = 0, arr = []) => {
-    if (nn === 10) {
+    if (nn === progressionLength) {
       return arr;
     }
     return getTenItemsOFprogression(nn + 1, arr.concat(formula(nn)));
