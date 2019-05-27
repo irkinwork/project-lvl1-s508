@@ -2,7 +2,10 @@ import make from '../..';
 import getRandomNumber from '../../utils';
 
 const getGcd = (first, second) => {
-  const [min, max] = [first, second].map(item => Math.abs(item)).sort((a, b) => a - b);
+  const firstAbs = Math.abs(first);
+  const secondAbs = Math.abs(second);
+  const min = Math.min(firstAbs, secondAbs);
+  const max = Math.max(firstAbs, secondAbs);
   const getDividers = (i, divs) => {
     if (i < 0) {
       return divs;
