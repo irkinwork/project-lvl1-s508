@@ -3,7 +3,6 @@
   "version": "2.0.0",
   "description": "The pack of mini console games.",
   "keywords": ["console", "brain games"],
-  "main": "index.js",
   "files": [
     "dist"
   ],
@@ -22,6 +21,9 @@
     "brain-prime": "./dist/bin/brain-prime.js"
   },
   "dependencies": {
+    "readline-sync": "^1.4.9"
+  },
+  "devDependencies": {
     "@babel/cli": "^7.4.4",
     "@babel/core": "^7.4.4",
     "@babel/node": "^7.2.2",
@@ -33,7 +35,6 @@
     "eslint-plugin-import": "^2.17.2",
     "eslint-plugin-jest": "^22.5.1",
     "eslint-plugin-lodash-fp": "^2.2.0-a1",
-    "nvm": "0.0.4",
-    "readline-sync": "^1.4.9"
+    "nvm": "0.0.4"
   }
 }
