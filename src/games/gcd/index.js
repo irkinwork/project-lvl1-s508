@@ -5,28 +5,17 @@ const getGcd = (first, second) => {
   const array = [first, second].map(item => Math.abs(item));
   const min = Math.min(...array);
   const max = Math.max(...array);
-  const getDividers = (i, divs) => {
-    if (i < 0) {
-      return divs;
+  const getDividers = (i) => {
+    if (i === 1) {
+      return 1;
     }
-    if (min % i === 0) {
-      divs.add(i);
+    if (min % i === 0 && max % i === 0) {
+      return i;
     }
-    return getDividers(i - 1, divs);
+    return getDividers(i - 1);
   };
 
-  const dividers = getDividers(min, new Set());
-  const selectDivs = (divs) => {
-    const divsArr = Array.from(divs);
-    const iter = (i = 0) => {
-      if (max % divsArr[i] === 0) {
-        return String(divsArr[i]);
-      }
-      return iter(i + 1);
-    };
-    return iter();
-  };
-  return selectDivs(dividers);
+  return getDividers(min);
 };
 
 const description = 'Find the greatest common divisor of given numbers.';
@@ -34,7 +23,7 @@ const description = 'Find the greatest common divisor of given numbers.';
 export const data = () => {
   const first = getRandomNumber();
   const second = getRandomNumber();
-  const correctAnswer = getGcd(first, second);
+  const correctAnswer = String(getGcd(first, second));
   const question = `${first} ${second}`;
   return { correctAnswer, question };
 };
