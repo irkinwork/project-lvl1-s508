@@ -2,13 +2,12 @@ import readlineSync from 'readline-sync';
 
 const roundsCount = 3;
 
-const make = (getQuestionData, rules) => {
+const make = (getQuestionData, description) => {
   console.log('Welcome to the Brain Games!');
-  console.log(rules);
+  console.log(description);
   console.log('');
   const name = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${name}!`);
-  const startScore = 0;
   const iter = (score) => {
     if (score === roundsCount) {
       console.log(`Congratulations, ${name}!`);
@@ -25,7 +24,7 @@ const make = (getQuestionData, rules) => {
       console.log(`Let's try again, ${name}!`);
     }
   };
-  iter(startScore);
+  iter(0);
 };
 
 export default make;

@@ -1,1 +1,1 @@
-export default (n = 100) => Math.round((0.5 - Math.random()) * n);
+export default (min = -100, max = 100) => Math.round(Math.random() * (max - min) + min);
