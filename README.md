@@ -13,6 +13,7 @@
 ### To install all games run in your terminal:
 
 ```
+git clone https://github.com/irkinwork/project-lvl1-s508.git
 make publish
 npm link
 ````
