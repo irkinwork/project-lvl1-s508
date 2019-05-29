@@ -4,17 +4,17 @@ import getRandomNumber from '../utils';
 const description = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
 const isPrime = (number) => {
-  if (number <= 0) {
+  if (number <= 1) {
     return false;
   }
-  const iter = (i) => {
-    if (i === 1) {
+  const iter = (divisor) => {
+    if (divisor === 1) {
       return true;
     }
-    if (number % i === 0) {
+    if (number % divisor === 0) {
       return false;
     }
-    return iter(i - 1);
+    return iter(divisor - 1);
   };
   return iter(number - 1);
 };
