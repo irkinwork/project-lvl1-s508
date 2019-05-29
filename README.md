@@ -7,8 +7,8 @@
 * Checking for even number
 * Calculator
 * Finding the GCD
-* Prime Number Checking
 * Finding the missing item of arithmetic progression
+* Prime Number Checking
 
 ### To install all games run in your terminal:
 
@@ -16,26 +16,36 @@
 make publish
 npm link
 ````
-#### To run "Checking for even number" run:
+To run "Checking for even number" run:
 ```
 brain-even
 ```
-#### To run "Calculator" run:
+
+![](https://irkinwork.github.io/project-lvl1-s508/even.svg)
+
+To run "Calculator" run:
 ```
 brain-calc
 ```
-#### To run "Finding the GCD" run:
+![](https://irkinwork.github.io/project-lvl1-s508/calc.svg)
+
+To run "Finding the GCD" run:
 ```
 brain-gcd
 ```
-#### To run "Prime Number Checking" run:
-```
-brain-prime
-```
-#### To run "Finding the missing item of arithmetic progression" run:
+![](https://irkinwork.github.io/project-lvl1-s508/prime.svg)
+
+To run "Finding the missing item of arithmetic progression" run:
 ```
 brain-progression
 ```
+![](https://irkinwork.github.io/project-lvl1-s508/gcd.svg)
+
+To run "Prime Number Checking" run:
+```
+brain-prime
+```
+![](https://irkinwork.github.io/project-lvl1-s508/prog.svg)
 
 [![asciicast](https://asciinema.org/a/eCehUEyUgjdRG5damlCpStMbZ.svg)](https://asciinema.org/a/eCehUEyUgjdRG5damlCpStMbZ)
 [![asciicast](https://asciinema.org/a/oVb1kkEwDe0w1pLm70lBNFJ4J.svg)](https://asciinema.org/a/oVb1kkEwDe0w1pLm70lBNFJ4J)
