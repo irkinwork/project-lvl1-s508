@@ -27,24 +27,28 @@ To run "Calculator" run:
 ```
 brain-calc
 ```
+
 ![](https://irkinwork.github.io/project-lvl1-s508/calc.svg)
 
 To run "Finding the GCD" run:
 ```
 brain-gcd
 ```
+
 ![](https://irkinwork.github.io/project-lvl1-s508/prime.svg)
 
 To run "Finding the missing item of arithmetic progression" run:
 ```
 brain-progression
 ```
+
 ![](https://irkinwork.github.io/project-lvl1-s508/gcd.svg)
 
 To run "Prime Number Checking" run:
 ```
 brain-prime
 ```
+
 ![](https://irkinwork.github.io/project-lvl1-s508/prog.svg)
 
 [![asciicast](https://asciinema.org/a/eCehUEyUgjdRG5damlCpStMbZ.svg)](https://asciinema.org/a/eCehUEyUgjdRG5damlCpStMbZ)
