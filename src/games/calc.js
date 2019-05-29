@@ -14,7 +14,6 @@ const calculate = (firstNumber, secondNumber, operation) => {
       return firstNumber - secondNumber;
     default: break;
   }
-  return new Error();
 };
 
 const description = 'What is the result of the expression?';
