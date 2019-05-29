@@ -4,11 +4,11 @@
 
 ## This pack contains 5 console mini-games: 
 
-* Checking for even number
-* Calculator
-* Finding the GCD
-* Finding the missing item of arithmetic progression
-* Prime Number Checking
+1. Checking for even number
+1. Calculator
+1. Finding the GCD
+1. Finding the missing item of arithmetic progression
+1. Prime Number Checking
 
 ### To install all games run in your terminal:
 
@@ -16,43 +16,38 @@
 make publish
 npm link
 ````
-To run "Checking for even number" run:
+1. To run "Checking for even number":
 ```
 brain-even
 ```
 
 ![](https://irkinwork.github.io/project-lvl1-s508/even.svg)
 
-To run "Calculator" run:
+2. To run "Calculator":
 ```
 brain-calc
 ```
 
 ![](https://irkinwork.github.io/project-lvl1-s508/calc.svg)
 
-To run "Finding the GCD" run:
+3. To run "Finding the GCD":
 ```
 brain-gcd
 ```
 
-![](https://irkinwork.github.io/project-lvl1-s508/prime.svg)
+![](https://irkinwork.github.io/project-lvl1-s508/prog.svg)
 
-To run "Finding the missing item of arithmetic progression" run:
+4. To run "Finding the missing item of arithmetic progression":
 ```
 brain-progression
 ```
 
-![](https://irkinwork.github.io/project-lvl1-s508/gcd.svg)
+![](https://irkinwork.github.io/project-lvl1-s508/prime.svg)
 
-To run "Prime Number Checking" run:
+5. To run "Prime Number Checking":
+
 ```
 brain-prime
 ```
 
 ![](https://irkinwork.github.io/project-lvl1-s508/prog.svg)
-
-[![asciicast](https://asciinema.org/a/eCehUEyUgjdRG5damlCpStMbZ.svg)](https://asciinema.org/a/eCehUEyUgjdRG5damlCpStMbZ)
-[![asciicast](https://asciinema.org/a/oVb1kkEwDe0w1pLm70lBNFJ4J.svg)](https://asciinema.org/a/oVb1kkEwDe0w1pLm70lBNFJ4J)
-[![asciicast](https://asciinema.org/a/87mt141YsrJ5wxTznveVf3KZ5.svg)](https://asciinema.org/a/87mt141YsrJ5wxTznveVf3KZ5)
-[![asciicast](https://asciinema.org/a/s3ZMkfi8BzdNetBsJULV0GN43.svg)](https://asciinema.org/a/s3ZMkfi8BzdNetBsJULV0GN43)
-[![asciicast](https://asciinema.org/a/lHmAjcYW8PT2S0kmHxhJZPYcK.svg)](https://asciinema.org/a/lHmAjcYW8PT2S0kmHxhJZPYcK)
