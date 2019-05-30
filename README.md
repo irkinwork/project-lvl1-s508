@@ -14,7 +14,8 @@
 
 ```
 git clone https://github.com/irkinwork/project-lvl1-s508.git
-make publish
+npm i
+make publish || npm publish --dry-run
 npm link
 ````
 1. To run "Checking for even number":
