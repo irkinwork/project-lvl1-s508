@@ -2,14 +2,14 @@ import make from '..';
 import getRandomNumber from '../utils';
 
 const getGcd = (firstNumber, secondNumber) => {
-  const numbers = [firstNumber, secondNumber].map(item => Math.abs(item));
+  const numbers = [firstNumber, secondNumber];
   const lowerNumber = Math.min(...numbers);
   const greaterNumber = Math.max(...numbers);
   const getDivisors = (divisor) => {
     if (divisor === 1) {
       return 1;
     }
-    if (lowerNumber % divisor === 0 && greaterNumber % divisor === 0) {
+    if ((lowerNumber % divisor === 0) && (greaterNumber % divisor === 0)) {
       return divisor;
     }
     return getDivisors(divisor - 1);

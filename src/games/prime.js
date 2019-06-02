@@ -16,7 +16,7 @@ const isPrime = (number) => {
     }
     return iter(divisor - 1);
   };
-  return iter(number - 1);
+  return iter(Math.ceil(number / 2));
 };
 
 const getData = () => {

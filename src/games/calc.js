@@ -21,7 +21,7 @@ const description = 'What is the result of the expression?';
 const getData = () => {
   const firstNumber = getRandomNumber();
   const secondNumber = getRandomNumber();
-  const operation = operations[getRandomNumber(0, 3)];
+  const operation = operations[getRandomNumber(0, operations.length)];
   const correctAnswer = String(calculate(firstNumber, secondNumber, operation));
   const question = `${firstNumber} ${operation} ${secondNumber}`;
   return { correctAnswer, question };
