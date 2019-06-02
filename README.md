@@ -37,14 +37,14 @@ brain-calc
 brain-gcd
 ```
 
-![](https://irkinwork.github.io/project-lvl1-s508/prog.svg)
+![](https://irkinwork.github.io/project-lvl1-s508/gcd.svg)
 
 4. To run "Finding the missing item of arithmetic progression":
 ```
 brain-progression
 ```
 
-![](https://irkinwork.github.io/project-lvl1-s508/prime.svg)
+![](https://irkinwork.github.io/project-lvl1-s508/prog.svg)
 
 5. To run "Prime Number Checking":
 
@@ -52,4 +52,4 @@ brain-progression
 brain-prime
 ```
 
-![](https://irkinwork.github.io/project-lvl1-s508/prog.svg)
+![](https://irkinwork.github.io/project-lvl1-s508/prime.svg)
