@@ -23,28 +23,28 @@ npm link
 brain-even
 ```
 
-![](https://irkinwork.github.io/project-lvl1-s508/even.gif)
+![](https://irkinwork.github.io/project-lvl1-s508/preview/even.gif)
 
 2. To run "Calculator":
 ```
 brain-calc
 ```
 
-![](https://irkinwork.github.io/project-lvl1-s508/calc.gif)
+![](https://irkinwork.github.io/project-lvl1-s508/preview/calc.gif)
 
 3. To run "Finding the GCD":
 ```
 brain-gcd
 ```
 
-![](https://irkinwork.github.io/project-lvl1-s508/gcd.gif)
+![](https://irkinwork.github.io/project-lvl1-s508/preview/gcd.gif)
 
 4. To run "Finding the missing item of arithmetic progression":
 ```
 brain-progression
 ```
 
-![](https://irkinwork.github.io/project-lvl1-s508/prog.gif)
+![](https://irkinwork.github.io/project-lvl1-s508/preview/prog.gif)
 
 5. To run "Prime Number Checking":
 
@@ -52,4 +52,4 @@ brain-progression
 brain-prime
 ```
 
-![](https://irkinwork.github.io/project-lvl1-s508/prime.gif)
+![](https://irkinwork.github.io/project-lvl1-s508/preview/prime.gif)
