@@ -5,11 +5,11 @@ const description = 'What number is missing in the progression?';
 const progressionLength = 10;
 
 const buildProgression = (firstItem, difference, length) => {
-  const iter = (index, result) => {
+  const iter = (index, acc) => {
     if (index === length) {
-      return result;
+      return acc;
     }
-    return iter(index + 1, result.concat(firstItem + (index - 1) * difference));
+    return iter(index + 1, acc.concat(firstItem + (index - 1) * difference));
   };
   return iter(0, []);
 };

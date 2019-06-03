@@ -7,16 +7,19 @@ const isPrime = (number) => {
   if (number <= 1) {
     return false;
   }
+  if (number === 2) {
+    return true;
+  }
   const iter = (divisor) => {
-    if (divisor === 1) {
-      return true;
-    }
     if (number % divisor === 0) {
       return false;
     }
-    return iter(divisor - 1);
+    if (divisor > number / 2) {
+      return true;
+    }
+    return iter(divisor + 1);
   };
-  return iter(Math.ceil(number / 2));
+  return iter(2);
 };
 
 const getData = () => {
