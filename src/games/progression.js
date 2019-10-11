@@ -26,7 +26,7 @@ const getData = () => {
   const randomIndex = getRandomNumber(0, progressionLength - 1);
   const progression = buildProgression(firstItem, difference, progressionLength);
   const correctAnswer = String(progression[randomIndex]);
-  const question = getQuestion(progression);
+  const question = getQuestion(progression, randomIndex);
   return { correctAnswer, question };
 };
 
