@@ -18,6 +18,8 @@ npm i
 make publish || npm publish --dry-run
 npm link
 ````
+![](https://irkinwork.github.io/project-lvl1-s508/preview/start.gif)
+
 1. To run "Checking for even number":
 ```
 brain-even
